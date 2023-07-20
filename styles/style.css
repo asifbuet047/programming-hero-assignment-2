@@ -197,7 +197,7 @@
 
 
 .we-are-gamer {
-    border: 2px solid tomato;
+    /* border: 2px solid tomato; */
 
     margin-top: 95px;
     display: flex;
@@ -302,7 +302,7 @@
 }
 
 .funny-section {
-    border: 2px solid tomato;
+    /* border: 2px solid tomato; */
 
     margin: 0px;
     margin-top: 120px;
@@ -390,7 +390,7 @@
 }
 
 .play-instant {
-    border: 2px solid tomato;
+    /* border: 2px solid tomato; */
     margin: 0px;
     margin-top: 120px;
     height: 750px;
@@ -510,7 +510,6 @@
 }
 
 .play-icon-each:hover {
-    border: 3px solid #F948B2;
     margin-top: 20px;
     transition-property: border-color;
     transition-duration: 1s;
@@ -530,4 +529,71 @@
     width: 60px;
     height: 60px;
     margin-right: 16px;
+}
+
+.footer {
+    background-color: #0B0223;
+}
+
+#footer-name-first-letter {
+    color: #FF42A5;
+}
+
+#footer-name-last-letter {
+    color: white;
+}
+
+.footer-icon-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-career {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-carrer-text {
+    color: white;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.footer-logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-carrer-text-term{
+    color: white;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer-carrer-text-last{
+    color: white;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-family: Work Sans;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
