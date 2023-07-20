@@ -160,9 +160,9 @@
 }
 
 .main-small-div-buttons button {
-    height: 62px;
+    height: 50px;
     width: 160px;
-    padding: 21px 21px;
+    padding: 10px;
     align-items: center;
     margin-right: 24px;
     border-radius: 31px;
@@ -197,6 +197,8 @@
 
 
 .we-are-gamer {
+    border: 2px solid tomato;
+
     margin-top: 95px;
     display: flex;
     flex-direction: row;
@@ -286,9 +288,9 @@
     line-height: 30px;
 }
 
-#we-are-gamer-h4{
+#we-are-gamer-h4 {
     margin: 0px;
-    
+
     text-align: right;
     color: #534C64;
     text-align: right;
@@ -296,5 +298,93 @@
     font-size: 36px;
     font-style: normal;
     font-weight: 900;
+    line-height: 30px;
+}
+
+.funny-section {
+    border: 2px solid tomato;
+
+    margin: 0px;
+    margin-top: 120px;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.funny-section>h2 {
+    /* border: 2px solid tomato; */
+
+    margin: 0px;
+    color: black;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.funny-section>p {
+    /* border: 2px solid tomato; */
+    margin: 0px;
+
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+#funny-video {
+    /* border: 2px solid tomato; */
+    margin: 0px;
+
+    color: #FF42A5;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.funny-section-images {
+    /* border: 2px solid tomato; */
+    margin: 0px;
+    padding-left: 240px;
+    padding-right: 240px;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 14px;
+}
+
+.funny-divs {
+    /* border: 2px solid tomato; */
+    display: grid;
+    grid-template-rows: 4fr 1fr;
+    row-gap: 24px;
+}
+
+.funny-divs>img {
+    /* border: 2px solid tomato; */
+
+}
+
+.funny-divs>h5 {
+    /* border: 2px solid tomato; */
+    margin: 0px;
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
     line-height: 30px;
 }
