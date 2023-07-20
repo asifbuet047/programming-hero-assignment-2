@@ -511,6 +511,7 @@
 
 .play-icon-each:hover {
     margin-top: 20px;
+    border-color: #FF42A5;
     transition-property: border-color;
     transition-duration: 1s;
     transition-timing-function: ease-in;
@@ -577,7 +578,7 @@
     align-items: center;
 }
 
-.footer-carrer-text-term{
+.footer-carrer-text-term {
     color: white;
     margin-left: 60px;
     margin-right: 60px;
@@ -588,7 +589,7 @@
     line-height: normal;
 }
 
-.footer-carrer-text-last{
+.footer-carrer-text-last {
     color: white;
     margin-left: 60px;
     margin-right: 60px;
@@ -598,3 +599,4 @@
     font-weight: 400;
     line-height: normal;
 }
+
